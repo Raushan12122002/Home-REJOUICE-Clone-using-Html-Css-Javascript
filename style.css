@@ -1,0 +1,190 @@
+@font-face {
+  font-family: nb;
+  src: url(NBInternationalProBoo.ttf);
+}
+
+@font-face {
+  font-family: rj;
+  src: url(Rejouice-Headline.ttf);
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "nb";
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#page1 {
+  height: 100vh;
+  width: 100%;
+  background-color: cadetblue;
+  position: relative;
+}
+
+#page1 video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+#page1-content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  color: #fff;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*gap: 45rem;*/
+  justify-content: space-between;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vw 3vw;
+}
+
+nav h3 {
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+#page1-content h1 {
+  font-family: rj;
+  font-size: 26vw;
+  line-height: 27vw;
+}
+
+#page1-content h1 span {
+  font-family: rj;
+}
+
+#cursor {
+  height: 7vw;
+  width: 7vw;
+  background-color: #ff5f38;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50px, -50px);
+}
+
+#cursor h5 {
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+.page2 {
+  width: 100%;
+  height: 800px;
+  background-color: #faf8f3;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 5px;
+}
+
+.lessText {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #000;
+  align-items: center;
+  text-align: left;
+  padding: 20px 30px;
+}
+
+.lessText p {
+  font-size: 1.5rem;
+  color: #737171;
+  font-weight: 400;
+}
+
+.underline {
+  width: 95%;
+  height: 2px;
+  font-weight: bold;
+  background-color: #737171;
+  margin: 0 auto;
+}
+
+.moreText {
+  text-align: center;
+  margin-top: 13px;
+}
+
+.moreText p {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+#page3 {
+  width: 100%;
+  height: 100vh;
+  border: 2px solid black;
+  background-color:#faf8f3 ;
+}
+
+
+#page3-top{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+top: 50%;
+}
+
+#page3-top h4{
+color: rgb(85, 81, 81);
+font-size: 2rem;
+}
+
+#page3-top span{
+background-color: #000;
+color: #fff;
+border-radius: 10px;
+font-size: 1.4rem;
+font-weight: 400;
+padding: 4px 20px;
+}
+
+.h4{
+    margin-top: 20px;
+}
+
+#page3-top h2{
+font-size: 5rem;
+font-weight: 300;
+border-bottom: #000;
+text-decoration: underline 3px solid black;
+}
+
+#page3-elements{
+width:100%;
+height:75vh ;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color:red ;
+}
+
+
+#page3-elements .box{
+height: 100%;
+width: 33%;
+background-color: #212396;
+}
